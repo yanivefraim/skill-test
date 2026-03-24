@@ -1,0 +1,6 @@
+{
+  "name": "plugin-b",
+  "description": "Plugin B - symlinks to shared skills from Plugin A",
+  "version": "0.1.0",
+  "skills": "./skills/"
+}

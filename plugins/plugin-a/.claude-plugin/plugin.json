@@ -1,0 +1,5 @@
+{
+  "name": "plugin-a",
+  "description": "Plugin A - owns shared skills and has unique skills",
+  "version": "0.1.0"
+}

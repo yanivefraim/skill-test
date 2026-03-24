@@ -1,0 +1,23 @@
+{
+  "name": "skill-test",
+  "description": "Test repo for shared skills via symlinks across plugins",
+  "owner": {
+    "name": "wix-a",
+    "email": "test@example.com"
+  },
+  "metadata": {
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "plugin-a",
+      "source": "./plugins/plugin-a",
+      "description": "Plugin A - owns shared skills and has unique skills"
+    },
+    {
+      "name": "plugin-b",
+      "source": "./plugins/plugin-b",
+      "description": "Plugin B - symlinks to shared skills from Plugin A"
+    }
+  ]
+}
